@@ -2,11 +2,15 @@
 ***
 <b> To create and manage GitHub repository using terraform provider and github token.</b>
 
-- <b>f0-repository.tf:</b> to define all repo details like name, description and privacy etc.
-- <b>output.tf:</b> to define all the reference attributes as the output
-- <b>provider-github-setup.tf:</b> terraform and GitHub provider setup
-- <b>variable-github-token.tf:</b> to keep secrets of the github and refer in repo creation and keeping it in gitignore to keep it local 
-  (this secret sharing is for a local/personal repo we need to use other methods like hashicorp vault when the repo is going to be managed by a team)
+- <b>f0-repository.tf:</b> 
+  to define all repo details like name, description and privacy etc.
+- <b>output.tf:</b> 
+  to define all the reference attributes as the output
+- <b>provider-github-setup.tf:</b> 
+  terraform and GitHub provider setup
+- <b>variable-github-token.tf:</b> 
+  to keep secrets of the github and refer in repo creation and keeping it in gitignore to keep it local 
+  <b><i>(this secret sharing method is for a local/personal repo we need to use other methods like hashicorp vault when the repo is going to be managed by a team)</i></b>
 ***
 
 ## <b><u>Commands:</b></u>
