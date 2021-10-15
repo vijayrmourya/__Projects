@@ -1,7 +1,5 @@
 pipeline {
-    agent{
-        label "Git-clone-agent"
-    }
+    agent any
 
     stages {
         stage('Git-Clone') {
