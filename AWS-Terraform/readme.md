@@ -17,3 +17,9 @@ please refere project descreption below or project related readme file in each p
 
 ## send-cloudwatch-logs-to-elasticsearch-via-lambda
 - Use AWS lambda to send Cloudwatch loggroup logs to elacticsearch
+
+## create-ec2-spot-instance-request
+- To create an EC2 instance as a spot instance request
+
+## create-windows-ec2-instance
+- Use AWS lambda to send Cloudwatch loggroup logs to elacticsearch
