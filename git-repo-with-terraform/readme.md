@@ -13,7 +13,7 @@
   terraform and GitHub provider setup
 
 - <b>variable-github-token.tf:</b>
-  to keep secrets of the github and refer in repo creation and keeping it in gitignore to keep it local
+  file is not added in git, it keeps secrets of the github and refer in repo creation and keeping it in gitignore to keep it local
   <b><i>(this secret sharing method is for a local/personal repo we need to use other methods like hashicorp vault when
   the repo is going to be managed by a team)</i></b>
 
