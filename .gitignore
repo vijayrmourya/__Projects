@@ -1,5 +1,6 @@
 .idea
 variable-github-token.tf
+.terraform*
 
 # Local .terraform directories
 **/.terraform/*
