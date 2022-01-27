@@ -138,12 +138,13 @@ def decimal_to_hexadecimal(number_10_16):
 
 # Code starts here
 while 1:
-    number_system = input("Please select number system of your number:\nA : Binary\nB : Octal\nC : Decimal\nD : "
+    number_system = input("Please select number system of your number:\nB : Binary\nO : Octal\nD : Decimal\nH : "
                           "Hex-Decimal\nE : Exit\nmake choice:")
     if number_system == 'E':
+        print("Exiting!")
         break
     number = input("Please enter the number in same Number system of your choice:")
-    if number_system == 'A':
+    if number_system == 'B':
         if is_binary(number):
             decimal_number = binary_to_decimal(number)
             print(f"Decimal number of Binary({str(number)}) is {str(int(decimal_number))}")
@@ -153,7 +154,7 @@ while 1:
             print(f"Hex-Decimal number of Binary({str(number)}) is {str(hex_number)}")
         else:
             print("Please enter valid Binary number or change the Number system and try again")
-    elif number_system == 'B':
+    elif number_system == 'O':
         if is_octal(number):
             decimal_number = octal_to_decimal(number)
             print(f"Decimal number of Octal({number}) is {str(int(decimal_number))}")
@@ -163,7 +164,7 @@ while 1:
             print(f"Hex-Decimal number of Octal({str(int(number))}) is {str(hex_number)}")
         else:
             print("Please enter valid Octal number or change the Number system and try again")
-    elif number_system == 'C':
+    elif number_system == 'D':
         number = int(number)
         if is_decimal(number):
             octal_number = decimal_to_octal(number)
@@ -174,7 +175,7 @@ while 1:
             print(f"Hex-Decimal number of Decimal({str(int(number))}) is {str(hex_number)}")
         else:
             print("Please enter valid Decimal number or change the Number system and try again")
-    elif number_system == 'D':
+    elif number_system == 'H':
         if is_hex(number):
             decimal_number = hexadecimal_to_decimal(number)
             print(f"Decimal number of Hex({number}) is {str(int(decimal_number))}")
