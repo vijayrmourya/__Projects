@@ -1,4 +1,5 @@
 - credit_card_validator.py : To validate the credit card number
+- as_a_module.py : to test credit_card_validator.py as a python module
 
 Code Output sample
 
