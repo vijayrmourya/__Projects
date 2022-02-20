@@ -1,6 +1,8 @@
 """credit_card_validator: to validate a credit card number"""
 import re
 
+__all__ = ['validate_card']
+
 
 def validate_card(card_number):
     """

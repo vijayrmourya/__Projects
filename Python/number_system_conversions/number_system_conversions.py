@@ -7,6 +7,11 @@ in octal, decimal and hexadecimal
 """
 import math
 
+__all__ = ['is_binary', 'is_octal', 'is_decimal', 'is_hex', 'binary_to_decimal', 'octal_to_decimal',
+           'hexadecimal_to_decimal', 'decimal_to_binary', 'octal_to_binary', 'hex_to_binary', 'decimal_to_octal',
+           'binary_to_octal', 'hexadecimal_to_octal', 'decimal_to_hexadecimal', 'binary_to_hexadecimal',
+           'octal_to_hexadecimal', 'convertor']
+
 
 def is_binary(number_2):
     """
